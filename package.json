@@ -1,0 +1,37 @@
+{
+  "name": "indoorgml-to-imdf",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "0vollov0",
+  "license": "MIT",
+  "dependencies": {
+    "@mapbox/geojson-merge": "1.1.1",
+    "fs": "0.0.1-security",
+    "geojson-minimum-bounding-rectangle": "^1.0.1",
+    "polygon-clipping": "0.15.3",
+    "polylabel": "1.1.0",
+    "uuid": "8.3.2",
+    "xml-flow": "1.0.4",
+    "xml-flow-legible": "2.0.0",
+    "xml-js": "1.6.11"
+  },
+  "keywords": [
+    "indoorgml",
+    "imdf",
+    "convertor"
+  ],
+  "homepage": "https://github.com/STEMLab/indoorGMLToIMDF",
+  "bugs": {
+    "email": "psk876@naver.com",
+    "url": "https://github.com/STEMLab/indoorGMLToIMDF/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/STEMLab/indoorGMLToIMDF.git"
+  }
+}
