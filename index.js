@@ -12,3 +12,8 @@ exports.convert = function(indoorGmlUrl) {
   const indoorJson = convert.xml2js(indoorGML, {compact: true, spaces: 2});
   ImdfCreator.createImdfFiles(indoorJson);
 }
+
+// exports.convert = function(indoorGML) {
+//   const indoorJson = convert.xml2js(indoorGML, {compact: true, spaces: 2});
+//   ImdfCreator.createImdfFiles(indoorJson);
+// }
