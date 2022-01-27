@@ -23,7 +23,9 @@
   "keywords": [
     "indoorgml",
     "imdf",
-    "convertor"
+    "convertor",
+    "geojson",
+    "gml"
   ],
   "homepage": "https://github.com/STEMLab/indoorgml-to-imdf",
   "bugs": {
